@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "cjs",
+    "declarationDir": "types",
+    "strict": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ESNext"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/**/*.test.*"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "src/index.ts"
+    ],
+    "out": "docs",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeInternal": true
+  }
+}
