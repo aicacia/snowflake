@@ -1,1 +1,1 @@
-export { Snowflake } from "./Snowflake";
+export { Snowflake, type SnowflakeOptions } from "./Snowflake";
